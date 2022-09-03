@@ -13,22 +13,20 @@ The sets are divided in ``0: train``, ``1: test`` and ``2: validation``the direc
 
 ### 🕸 Architectures
 
-- VGG-16
 - ResNet-152
-- Densenet-169
 - Inception-V3
+- VGG-16
+- Densenet-169
 
 ### 🚗 Datasets
 
+- [BRCars](https://github.com/danimtk/brcars-dataset)
 - [Cars-196](http://ai.stanford.edu/~jkrause/cars/car_dataset.html)
 - [CompCars](http://mmlab.ie.cuhk.edu.hk/datasets/comp_cars/)
-- [BRCars](https://github.com/danimtk/brcars-dataset)
 
 ### 📁 Folders Tree Structure 
 ```
 📂datasets
-│   README.md
-│   file001.txt│
 └───📂brcars
 │   └───📂0
 │   │     image1.jgp
@@ -86,7 +84,7 @@ python train.py
 
 ### ⚠️ Flags Requireds 
 
-The ```-a``` or ```--architecture``` Select architecture to train (Options: 1 - ResNet152, 2 - InceptionV3, 3 - VGG16, 4 - DenseNet169, 5 - InceptionResNetV2)
+The ```-a``` or ```--architecture``` Select architecture to train (Options: 1 - ResNet152, 2 - InceptionV3, 3 - VGG16, 4 - DenseNet169)
 
 The ```-d``` or ```--dataset``` Select dataset to use (Options: 1 - brcars427, 2 - stanford196, 3 - compcars1716)
 
