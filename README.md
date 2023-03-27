@@ -107,3 +107,21 @@ The ```-lr``` or ```--learning_rate``` Select learning rate used on training (De
 - [ ] Implement cross-validation in pipeline
 - [ ] Use segmentation techniques to remove background from images to try to improve metric results
 
+
+## 📄 Paper
+___
+
+- Fine-grained Cars Recognition using Deep Convolutional Neural Networks - 2022 35th SIBGRAPI Conference on Graphics, Patterns and Images (SIBGRAPI)
+
+If you use this code or results in your research we would appreciate a citation to the paper:
+
+```
+@nproceedings{oliveira2022finegrained,
+  author={Oliveira, Franklin and Macena, Arianne and Kamel, Otávio and Souza, Wesley and Freitas, Nicksson and Vinuto, Tiago},
+  booktitle={2022 35th SIBGRAPI Conference on Graphics, Patterns and Images (SIBGRAPI)}, 
+  title={Fine-grained Cars Recognition using Deep Convolutional Neural Networks}, 
+  year={2022},
+  volume={1},
+  pages={240-245},
+  doi={10.1109/SIBGRAPI55357.2022.9991761}}
+```
